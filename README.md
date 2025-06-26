@@ -1,2 +1,6 @@
-# WebDevelopment
-🚀 This repository is a curated journey through modern web development — blending 🎨 creativity with 💻 code. From responsive layouts using 🧩 HTML &amp; CSS to dynamic interactivity powered by ⚙️ JavaScript, each project reflects 🧠 hands-on learning and thoughtful design.
+🌐 Web Development Projects
+
+A growing collection of web development projects built using HTML, CSS, and JavaScript. 💻  
+Each project reflects my journey of learning, exploring, and building beautiful, responsive websites. 🚀✨
+
+Stay tuned for more updates and creative web experiments! 🎨🛠️  
