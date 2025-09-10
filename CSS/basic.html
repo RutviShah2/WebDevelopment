@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Basics Demo</title>
+  <style>
+    p {
+      color: blue;
+    }
+
+    body {
+      background-color: lightpink;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-style: italic;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .box {
+      border: 2px solid black;
+      margin: 20px 0;
+      padding: 10px;
+    }
+
+    .padding-demo {
+      padding: 20px;
+      background-color: white;
+    }
+
+    .margin-demo {
+      margin: 30px;
+      background-color: lightyellow;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 10px 20px;
+      background: purple;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+
+    .shadow-box {
+      width: 150px;
+      height: 80px;
+      background: white;
+      box-shadow: 4px 4px 8px gray;
+      margin: 20px;
+    }
+
+    .fixed-size {
+      width: 200px;
+      height: 100px;
+      background: lightblue;
+      margin: 20px;
+    }
+
+
+    .bg-image {
+      background-image: url('https://via.placeholder.com/300x150');
+      background-size: cover;
+      width: 300px;
+      height: 150px;
+      margin: 20px;
+    }
+
+    .shadow-text {
+      font-size: 24px;
+      text-shadow: 2px 2px 4px gray;
+    }
+
+    .gradient {
+      width: 300px;
+      height: 100px;
+      background: linear-gradient(to right, pink, purple);
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Basics Demo </h1>
+  <h2>This is Centered Text</h2>
+
+  <p>This paragraph has <b>blue color</b>.</p>
+
+  <div class="box">This div has a border.</div>
+
+  <div class="padding-demo">This div has padding (space inside).</div>
+
+  <div class="margin-demo">This div has margin (space outside).</div>
+
+  <button>Hover Me!</button>
+  <p>Check out <a href="#">this link</a> with hover effect.</p>
+
+  <h2>Rounded Image</h2>
+  <img src="https://via.placeholder.com/120" alt="Sample">
+
+  <h2>Shadow Example</h2>
+  <div class="shadow-box"></div>
+
+  <h2>Fixed Size Box</h2>
+  <div class="fixed-size"></div>
+
+  <h2>Background Image</h2>
+  <div class="bg-image"></div>
+
+  <h2>Text Shadow</h2>
+  <p class="shadow-text">This text has a shadow effect!</p>
+
+  <h2>Gradient Background</h2>
+  <div class="gradient"></div>
+
+</body>
+</html>
