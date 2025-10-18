@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Example</title>
+</head>
+<body>
+  <h1 id="title">Welcome, Rutvii!</h1>
+  <button onclick="changeContent()">Click Me</button>
+  <p id="text">JavaScript can change content dynamically.</p>
+
+  <script>
+    function changeContent() {
+      // Change text
+      document.getElementById("title").innerText = "You clicked the button!";
+      
+      // Change color
+      document.getElementById("text").style.color = "blue";
+
+      // Add a new element
+      let newPara = document.createElement("p");
+      newPara.innerText = "This paragraph was added using JavaScript.";
+      document.body.appendChild(newPara);
+    }
+  </script>
+</body>
+</html>
