@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Query Selector</title>
+</head>
+<body>
+  <h2 class="title">Hello World</h2>
+  <button id="btn">Change Style</button>
+
+  <script>
+    document.getElementById("btn").addEventListener("click", () => {
+      let heading = document.querySelector(".title");
+      heading.style.color = "green";
+      heading.style.fontSize = "30px";
+      heading.innerText = "Style Changed Successfully";
+    });
+  </script>
+</body>
+</html>
